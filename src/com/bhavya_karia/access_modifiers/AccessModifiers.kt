@@ -1,4 +1,8 @@
-package access_modifiers
+package com.bhavya_karia.access_modifiers
+
+/**
+ * @author  Bhavya Karia
+ */
 
 /**
  * Four access modifiers:

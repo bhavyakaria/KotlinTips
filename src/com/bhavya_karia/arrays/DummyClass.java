@@ -1,4 +1,8 @@
-package arrays;
+package com.bhavya_karia.arrays;
+
+/**
+ * @author  Bhavya Karia
+ */
 
 public class DummyClass {
 

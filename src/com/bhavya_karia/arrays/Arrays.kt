@@ -1,4 +1,8 @@
-package arrays
+package com.bhavya_karia.arrays
+
+/**
+ * @author  Bhavya Karia
+ */
 
 fun main(args: Array<String>) {
 
@@ -8,7 +12,7 @@ fun main(args: Array<String>) {
     // simple int array
     val intArray = arrayOf(1, 2, 3, 4, 5)
 
-    // simple long arrays
+    // simple long com.bhavya_karia.arrays
     val longArray1 = arrayOf(1L, 2L, 3L)
     val longArray2 = arrayOf<Long>(1, 2, 3)         // if data type not provided then smart casting will convert it into array of int
 
@@ -28,7 +32,7 @@ fun main(args: Array<String>) {
     // initialize array with fixed size but no values
     val arrayWithSize = arrayOfNulls<Int>(10)
 
-    // primitive arrays
+    // primitive com.bhavya_karia.arrays
     val primitiveIntArray = IntArray(10) { i -> i + 1 }
     primitiveIntArray.forEach { println(it) }
     // Output: 1 2 3 4 5 6 7 8 9 10
