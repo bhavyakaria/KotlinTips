@@ -1,11 +1,11 @@
 # KotlinTips
 
 ### Contents
-1. Arrays
-2. Access Modifiers
+1. [Arrays](#1-arrays)
+2. [Access Modifiers](#2-access-modifiers)
 
 ### 1. Arrays
-```
+```kotlin
 // simple string array
 val stringArray = arrayOf("Iron Man", "Hulk", "Captain America", "Thor")
 
@@ -43,11 +43,11 @@ primitiveIntArray.forEach { println(it) }
 2. Unlike Java, arrays are invariant in Kotlin. This means that Kotlin does not let us assign an Array<String> to an Array<Any>, which prevents a possible runtime failure.
 
 ### 2. Access Modifiers
-* Four access modifiers are:
-    1. public
-    2. private
-    3. protected
-    4. internal
+Four access modifiers are:
+1. public
+2. private
+3. protected
+4. internal
 
 #### Key Points
 1. By default, classes are public in Kotlin, unlike Java where they are package private.
