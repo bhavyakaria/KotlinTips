@@ -4,7 +4,11 @@ package com.bhavya_karia.arrays
  * @author  Bhavya Karia
  */
 
-fun main(args: Array<String>) {
+/**
+ * Various types of arrays and best practices
+ */
+
+fun main() {
 
     // simple string array
     val stringArray = arrayOf("Iron Man", "Hulk", "Captain America", "Thor")
