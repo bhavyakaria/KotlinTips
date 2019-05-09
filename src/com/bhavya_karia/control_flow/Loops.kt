@@ -6,49 +6,37 @@ package com.bhavya_karia.control_flow
 
 /**
  * Kotlin support all the commonly used loops - for, while, do while
- * But the for loop works a bit differently than in Java
+ * But the for loop works a bit differently than in Java. Here you will find various types of loops and its ranges
  */
-
-class SuperHeroes(val name: String)
-
-class Avengers(private val heroes: List<SuperHeroes>) {
-
-    // define an iterator with name as iterator and return user-defined data object
-    operator fun iterator(): Iterator<SuperHeroes> {
-        return heroes.iterator()
-    }
-}
 
 fun main() {
 
-    val carCompanies = listOf("Ferrari", "BMW", "Mercedes", "Audi", "Tata Motors")
+    // simple for loop with in
+    for (i in 0..3) {
+        println(i)
+    }
+    // Output: 0 1 2 3
 
-    println("===== FOR =====")
-    // for
-    for (companyName in carCompanies) {
-        println(companyName)
+    // simple for loop with until
+    for (i in 0 until 5) {
+        println(i)
+    }
+    // Output: 0 1 2 3 4
+
+    // incrementing with n steps
+    for (i in 0..10 step 2) {
+        println(i)
+    }
+    // Output: 0 2 4 6 8 10
+
+    // reverse counting till n
+    for (i in 5 downTo 2) {
+        println(i)
     }
 
-    println("===== WHILE =====")
-    // while
-    var count = 0
-    while (count < 5) {
-        println(count)
-        count++
+    // you can even have char ranges
+    for (a in 'a'..'f') {
+        println(a)
     }
 
-    println("===== DO-WHILE =====")
-    // do-while
-    var num = 100
-    do {
-        println(num)
-        num++
-    } while (num < 100)
-
-    println("===== ITERATORS =====")
-    // iterators - you can have your own custom iterator
-    val avengers = Avengers(listOf(SuperHeroes("Iron Man"), SuperHeroes("Captain America"), SuperHeroes("Black Widow")))
-    for (avenger in avengers) {
-        println(avenger.name)
-    }
 }
