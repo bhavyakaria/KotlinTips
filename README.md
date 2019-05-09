@@ -4,6 +4,7 @@
 1. [Arrays](#1-arrays)
 2. [Access Modifiers](#2-access-modifiers)
 3. [Scope Functions](#3-scope-functions)
+4. [Control Flow](#4-control-flow)
 
 ### 1. Arrays
 ```kotlin
@@ -110,3 +111,36 @@ val antMan = Superheroes("Ant Man", "Marvel", "None", numberOfFilms = 2).also {
     writeToLog(it)
 }
 ```   
+
+### 4. Control Flow
+**Loops:**
+1. Kotlin has all the common ones like for, while and do-while.
+2. The for loop in Kotlin is slightly different than in Java/Javascript.
+
+for loop in Java:
+```java
+for (int i = 0; i < 10; i++) {
+    // do something...
+}
+```
+
+for loop in Kotlin:
+```kotlin
+for (i in 0..10) {
+    // do something...
+}
+```
+
+**Ranges:**
+1. There are various sets to define a range in Kotlin.
+2. You can also iterate over char ranges i.e. a-z
+
+```kotlin
+(i in 0..10)        -> "Iterate from 0 to 10(inclusive) with increment of 1"
+(i in 0 until 10)   -> "Iterate from 0 to 10(exclusive) with increment of 1"
+(i in 2..10 step 2) -> "Iterate from 2 to 10(inclusive) with increment of 2"
+(i in 3 downTo 0)   -> "Iterate in reverse order from 3 to 0"
+(c in 'a'..'f')     -> "Iterate from a to f"
+```
+
+
