@@ -14,7 +14,7 @@ val stringArray = arrayOf("Iron Man", "Hulk", "Captain America", "Thor")
 // simple int array
 val intArray = arrayOf(1, 2, 3, 4, 5)
 
-com.bhavya_karia.arraysavya_karia.arrays
+// simple long arrays
 val longArray1 = arrayOf(1L, 2L, 3L)
 val longArray2 = arrayOf<Long>(1, 2, 3)         // if data type not provided then smart casting will convert it into array of int
 
@@ -32,16 +32,17 @@ DummyClass().printNumbers(numberToPass)
 // Output: 1 2 3 4
 
 // initialize array with fixed size but no values
-val arrayWithSize = arraycom.bhavya_karia.
-arrays primitive com.bhavya_karia.arrays
+val arrayWithSize = arrayOfNulls<Int>(10)
+
+// primitive arrays
 val primitiveIntArray = IntArray(10) { i -> i + 1 }
 primitiveIntArray.forEach { println(it) }
 // Output: 1 2 3 4 5 6 7 8 9 10
 ```
 
 #### Key Points
-1. Whenever possible use com.bhavya_karia.arrays with primitive data type i.e. `IntArray`, `CharArray`, `ByteArray` and so on for better performance.
-2. Unlike Java, com.bhavya_karia.arrays are invariant in Kotlin. This means that Kotlin does not let us assign an Array<String> to an Array<Any>, which prevents a possible runtime failure.
+1. Whenever possible use arrays with primitive data type i.e. `IntArray`, `CharArray`, `ByteArray` and so on for better performance.
+2. Unlike Java, arrays are invariant in Kotlin. This means that Kotlin does not let us assign an Array<String> to an Array<Any>, which prevents a possible runtime failure.
 
 ### 2. Access Modifiers
 Four access modifiers are:
