@@ -58,6 +58,7 @@ fun main() {
     val antMan = Superheroes("Ant Man", "Marvel", "None", numberOfFilms = 2).also {
         writeToLog(it)
     }
+
 }
 
 fun writeToLog(it: Superheroes) {

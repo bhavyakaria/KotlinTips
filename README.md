@@ -5,6 +5,7 @@
 2. [Access Modifiers](#2-access-modifiers)
 3. [Scope Functions](#3-scope-functions)
 4. [Control Flow](#4-control-flow)
+5. [Data Types](#)
 
 ### 1. Arrays
 ```kotlin
@@ -164,7 +165,7 @@ for (i in 0..10) {
 }
 ```
 
-**Ranges:**
+**Ranges**
 1. There are various sets to define a range in Kotlin.
 2. You can also iterate over char ranges i.e. a-z
 
@@ -176,4 +177,15 @@ for (i in 0..10) {
 (c in 'a'..'f')     -> "Iterate from a to f"
 ```
 
+### 5. Data Types
+```
+// uses primitive data type int of Java
+val primitiveInt: Int = 1
+
+// uses Integer data type  of Java
+val integerObject: Int? = 5
+```
+
+#### Key Points
+1. Avoid using nullable int data type if not required because they are compiled down to Integer and not int in Java.
 
