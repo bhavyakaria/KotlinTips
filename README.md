@@ -6,6 +6,7 @@
 3. [Scope Functions](#3-scope-functions)
 4. [Control Flow](#4-control-flow)
 5. [Data Types](#)
+6. [Classes And Objects](#-classes-and-objects)
 
 ### 1. Arrays
 ```kotlin
@@ -189,3 +190,21 @@ val integerObject: Int? = 5
 #### Key Points
 1. Avoid using nullable int data type if not required because they are compiled down to Integer and not int in Java.
 
+### 6. Classes And Objects
+
+1. **typealias**
+
+    1. It allows us to create a new type that is simply an alias of an existing type.
+    2. It carries no overhead or benefit. The alias is simply replaced by the compiler.
+
+```kotlin
+// if we are gonna use the below hash map many times in the code then we can use type alias to simplify our code
+typealias team = HashMap<String, String>
+
+// now you can use 'team' wherever you have to write 'HashMap<String, String>'
+val userList: team = hashMapOf("Man City" to "EPL", "Real Madrid" to "La Liga", "Juventus" to "Serie A")
+
+fun processData(userList: team) {
+    // do whatever you want...
+}
+```

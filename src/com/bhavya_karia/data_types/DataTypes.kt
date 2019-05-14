@@ -12,6 +12,4 @@ fun main() {
     // uses Integer data type  of Java
     val integerObject: Int? = 5
 
-    
-
 }
