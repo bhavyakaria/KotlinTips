@@ -6,6 +6,7 @@ package com.bhavya_karia.classes_and_objects
 
 /**
  * type alias - allows us to create a new type that is simply an alias of an existing type.
+ *
  */
 
 // if we are gonna use the below hash map many times in the code then we can use type alias to simplify our code

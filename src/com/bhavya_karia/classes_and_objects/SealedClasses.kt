@@ -6,6 +6,7 @@ package com.bhavya_karia.classes_and_objects
 
 /**
  * Example of sealed classes
+ *
  */
 
 sealed class SealedClasses {

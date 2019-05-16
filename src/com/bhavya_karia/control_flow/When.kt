@@ -7,6 +7,7 @@ package com.bhavya_karia.control_flow
 /**
  * When - Instead of switch, we have when in Kotlin which is more flexible and clear to use.
  * It can be used as an expression or as a statement.
+ *
  */
 
 fun main() {
