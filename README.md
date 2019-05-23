@@ -7,6 +7,7 @@
 4. [Control Flow](#4-control-flow)
 5. [Data Types](#)
 6. [Classes And Objects](#-classes-and-objects)
+7. [List](https://github.com/bhavyakaria/KotlinTips/tree/master/src/com/bhavya_karia/list)
 
 ### 1. Arrays
 ```kotlin
