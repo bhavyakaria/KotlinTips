@@ -41,6 +41,7 @@ for loop in Java:
 for (int i = 0; i < 10; i++) {
 	// do something
 ```
+for loop in Kotlin:
 ```kotlin
 for (i in 0..10) {
 	// do something
