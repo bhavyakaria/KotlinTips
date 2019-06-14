@@ -41,10 +41,11 @@ for loop in Java:
 for (int i = 0; i < 10; i++) {
 	// do something
 ```
-
+```kotlin
 for (i in 0..10) {
 	// do something
 }
+```
 
 **Ranges**
 1. There are various sets to define a range in Kotlin.
